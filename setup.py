@@ -6,7 +6,8 @@ setup(
     url='https://github.com/gitHBDX/SERGIO.git',
     author='Payam Dibaeinia',
     description='SERGIO is a simulator for single-cell expression data guided by gene regulatory networks.',
-    packages=["SERGIO"],    
+    packages=["SERGIO"],
+    include_package_data=True,
     install_requires=[
         'numpy >= 1.13.3',
         'scipy >= 1.1.0',
